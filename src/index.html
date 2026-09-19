@@ -6,13 +6,21 @@
 
     <title>Todo App</title>
 
-    <script src="todo-script.js" defer></script>
+    <link rel="stylesheet" href="styling.css">
 </head>
 
 <body>
     <main>
         <h1>Todo App</h1>
         <p>Add and manage your tasks.</p>
+
+        <form id="todo-form">
+            <label for="todo-input">New task</label>
+
+            <input id="todo-input" type="text" placeholder="What needs to be done?" required>
+
+            <button type="submit">Add task</button>
+        </form>
     </main>
 </body>
 </html>
